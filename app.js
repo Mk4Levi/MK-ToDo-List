@@ -40,7 +40,7 @@ const item2 = new Item({
 });
 
 const item3 = new Item({
-  name: "Click the checkbox to delete an item.",
+  name: "Double-Click the checkbox to delete an item.",
 });
 
 const defaultItems = [item1, item2, item3];
