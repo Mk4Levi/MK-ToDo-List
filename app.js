@@ -32,15 +32,15 @@ const Item = mongoose.model("Item", itemsSchema);
 
 // adding items to this collection named 'items' of this db
 const item1 = new Item({
-  name: "Welcome to your TodoList!",
+  name: "Welcome to your TodoList Web-App!",
 });
 
 const item2 = new Item({
-  name: "Hit the + button to add a new item.",
+  name: "Click (+) button to add a new item.",
 });
 
 const item3 = new Item({
-  name: "<-- Hit this to delete an item.",
+  name: "Click the checkbox to delete an item.",
 });
 
 const defaultItems = [item1, item2, item3];
