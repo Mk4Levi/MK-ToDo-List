@@ -1,2 +1,7 @@
-package-lock.json
 node_modules
+.parcel-cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
