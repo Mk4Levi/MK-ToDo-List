@@ -1,7 +1,7 @@
 # To-Do-List Web App
 
 ## Website Link => https://mk-react-leet-code.vercel.app/
- => Add new item to this Todolist web app to achieve your daily targets.
+ => Add new item to this Todolist web app to achieve your daily targets
 
 <h2>Getting Started</h2>
 
