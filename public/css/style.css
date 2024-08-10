@@ -1,17 +1,17 @@
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(280deg, #a2ff74 50%, #fff6a4 50%);
+  /* background-color: #e4e9fd; */
+  background-image: -webkit-linear-gradient(280deg, #d1ffba 50%, #ecdeec 50%);
   min-height: 200px;
-  font-family: 'helvetica neue';
+  font-family: "helvetica neue";
 }
 
 h1 {
   color: #fff;
-  padding: 5px;
+  padding: 1px;
 }
 
 .box {
-  max-width: 400px;
+  max-width: 420px;
   margin: 30px auto;
   background: rgb(165, 255, 227);
   border-radius: 5px;
@@ -29,19 +29,19 @@ h1 {
 }
 
 .item {
-  min-height: 70px;
+  min-height: 80px;
   display: flex;
   align-items: center;
-  border-bottom: 5px solid #F1F1F1;
+  border-bottom: 5px solid #f1f1f1;
 }
 
 .item:last-child {
   border-bottom: 0;
 }
 
-input:checked+p {
+input:checked + p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #a683e3;
 }
 
 input[type="checkbox"] {
@@ -66,7 +66,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #a683e3;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
@@ -76,7 +76,7 @@ button {
 button:hover {
   background-color: rgb(30, 127, 255);
   cursor: pointer;
-  border: 1px solid #2b0076 ;
+  border: 1px solid #2b0076;
 }
 
 input[type="text"] {
@@ -98,7 +98,7 @@ input[type="text"]:hover {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
 }
 
 ::placeholder {

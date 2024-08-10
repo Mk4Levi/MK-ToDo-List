@@ -1,7 +1,8 @@
 # To-Do-List Web App
 
-## Website Link => https://mk-react-leet-code.vercel.app/
- => Add new item to this Todolist web app to achieve your daily targets
+### => This To-Do List web-app offers a streamlined and efficient way to manage tasks by creating to-do items which will be stored in the MONGO-DB Atlas Database.
+
+## Website Link => https://manthan-todolist-app.onrender.com/
 
 <h2>Getting Started</h2>
 
@@ -28,7 +29,7 @@ npm install
 5. Finally, host it on local server :
 
 ```bash
-node app.js
+npm run dev
 ```
 
 6. Now just search this in your browser to view the live running application in your Local sysytem :
@@ -63,7 +64,3 @@ http://localhost:3000
 ```
 
 # Thank You
-
-
-
-

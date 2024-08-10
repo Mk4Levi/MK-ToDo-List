@@ -1,9 +1,10 @@
 {
-  "name": "todolist-v1",
+  "name": "todolist-app",
   "version": "1.0.0",
   "description": "making a todolist with EJS",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manthan Kumar",
