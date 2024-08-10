@@ -3,7 +3,14 @@
 </body>
 
 <footer>
-  <p class="footer">&copy; MK-Todo-List || 2023-25</p>
+  <p class="footer">copyright &#169;<a href="https://manthan-mk-portfolio.vercel.app"target="_blank"><strong> Manthan-MK </strong></a>|| <span id="updatedYear"></span> </p>
 </footer>
+
+<script>
+  let date = new Date();
+  let year = date.getFullYear();
+
+  document.getElementById("updatedYear").innerHTML = year;
+ </script>
 
 </html>

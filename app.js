@@ -61,13 +61,13 @@ app.get("/", function (req, res) {
           .catch(function (err) {
             console.log("Error found in saving default items to DB: " + err);
           });
-          res.redirect("/");
+        res.redirect("/");
       } else {
         res.render("list", {
           listTitle: day,
           newListItems: foundItems,
         });
-      };
+      }
     })
     .catch(function (err) {
       console.log(err);
@@ -79,7 +79,7 @@ app.post("/", function (req, res) {
   const itemName = req.body.newItem;
 
   const item = new Item({
-    name: itemName
+    name: itemName,
   });
 
   item.save();
@@ -88,15 +88,14 @@ app.post("/", function (req, res) {
 });
 
 // app.post() for delete routes
-app.post("/delete", function(req, res) {
+app.post("/delete", function (req, res) {
   const checkedItemId = req.body.checkbox;
 
-  Item.findByIdAndRemove(checkedItemId)
-  .then(function(err) {
+  Item.findByIdAndRemove(checkedItemId).then(function (err) {
     if (!err) {
       console.log("Successfully removed the checked item.");
       res.redirect("/");
-    };
+    }
   });
 });
 
